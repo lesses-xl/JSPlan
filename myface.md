@@ -51,13 +51,13 @@
     - static
 
 + flex布局怎么理解（这个会问的很细）
-    !['flex'](https://github.com/nightess/Diary/blob/master/flex%E6%95%99%E7%A8%8B/flex.md)
+    [flex](https://github.com/nightess/Diary/blob/master/flex%E6%95%99%E7%A8%8B/flex.md)
 + 哪些css属性可以继承（大部分不能继承，字体这些可以继承）
 + 原型怎么理解，原型的继承方式
 + js只有一个线程，如何实现并发(异步操作的)
-    !['js单线程'](https://blog.csdn.net/qq_39480597/article/details/79662913)
+    [js单线程](https://blog.csdn.net/qq_39480597/article/details/79662913)
 + js闭包的理解，作用是什么，有哪些缺点，使用场景是什么
-    !['闭包'](https://www.jianshu.com/p/8376170fb228)
+    [闭包](https://www.jianshu.com/p/8376170fb228)
 + canvas的理解，举例：如何实现贝塞尔曲线，或者说如何画一个圆
 + svg的理解，canvas和svg各有什么优缺点
 + 实现动画的方式有哪些
@@ -78,11 +78,11 @@ b.外部标签：会将这个浮动盒子的影响清除，但是不会撑开父
         - 方法三:使用伪元素来清除浮动(after意思:后来,以后)
 
 + ast
-    !['ast抽象语法树'](https://segmentfault.com/a/1190000016231512)
+    [ast抽象语法树](https://segmentfault.com/a/1190000016231512)
 + 例举几个Array的原型方法
-    !['原型方法'](https://www.jianshu.com/p/b67293a52358)
+    [原型方法](https://www.jianshu.com/p/b67293a52358)
 + cookie，session，local的区别，要很详细说明
-    !['区别'](https://blog.csdn.net/lizhengxv/article/details/81541977)
+    [区别](https://blog.csdn.net/lizhengxv/article/details/81541977)
 + a=[1，2，3,4]，实现a.x(),让a=[1，4,9,16]。要答出prototype和map
 
 ### 框架
@@ -123,10 +123,10 @@ b.外部标签：会将这个浮动盒子的影响清除，但是不会撑开父
 + jquery，与vue的区别，为啥要用mvvm框架
 + 虚拟dom树的好处是什么，原理是什么（请看diff算法），本题答案可作为vue的优点之一
 + Vuex的原理
-    + !['原理'](https://www.jianshu.com/p/d95a7b8afa06)
+    + [原理](https://www.jianshu.com/p/d95a7b8afa06)
 + Js的callback，在vue中有哪些相似的用法（实际上钩子函数就是用回调实现的）
 + Vue父子组件传值方法，兄弟组件传值方法（两种：父子组件一层层传值或者用vuex全局状态）   
-    + !['传参'](https://blog.csdn.net/Mr_JavaScript/article/details/81476834)
+    + [传参](https://blog.csdn.net/Mr_JavaScript/article/details/81476834)
     + vuex
 + Vue路由router的传参方式有哪些
     +        this.$router.push({
@@ -145,7 +145,7 @@ b.外部标签：会将这个浮动盒子的影响清除，但是不会撑开父
           }
         })    
 + 新版本vue双向绑定用了proxy，与defineproperty相比有哪些好处
-    !['哪些好处'](https://www.jianshu.com/p/2df6dcddb0d7)
+    [哪些好处](https://www.jianshu.com/p/2df6dcddb0d7)
 
 ### http和浏览器
 + http的工作流程是什么
@@ -159,21 +159,21 @@ b.外部标签：会将这个浮动盒子的影响清除，但是不会撑开父
 
 ### Es6
 + es6哪些新东西，怎么理解的，好处是什么
-    + !['新特性'](https://blog.csdn.net/sinat_36246371/article/details/80602289)
+    + [新特性](https://blog.csdn.net/sinat_36246371/article/details/80602289)
 + es6构造器和class的理解（其实就是基于原型链继承，事不过是封装了）
-    + !['理解'](https://www.jianshu.com/p/435e6018caa9) 
+    + [理解](https://www.jianshu.com/p/435e6018caa9) 
 + generator是做什么的，什么场景下会用到
-    + !['做什么'](https://www.jianshu.com/p/c7f4129d7794)
+    + [做什么](https://www.jianshu.com/p/c7f4129d7794)
 
 + promise的原理是什么，promise有哪几种状态，分别代表什么意思
-    + !['promise'](https://www.jianshu.com/p/dc61ea153874)
+    + [promise](https://www.jianshu.com/p/dc61ea153874)
 
 
 ### webpack、Git
 + webpack配置项有哪些（entry，output，loader，plugin等）
 + Babel的原理
     + 转义器
-    + !['babel'](https://www.jianshu.com/p/e9b94b2d52e2)
+    + [babel](https://www.jianshu.com/p/e9b94b2d52e2)
 + Webpack插件如何配置
 + Babel有个runtime什么时候用到
 + Webpack的loader的原理
@@ -220,7 +220,7 @@ b.外部标签：会将这个浮动盒子的影响清除，但是不会撑开父
     + export $HOME=/c/gitconfig //配置git config的HOME路径
 
 + Git解决冲突的方案
-    + !['git冲突'](https://www.cnblogs.com/gavincoder/p/9071959.html)
+    + [git冲突](https://www.cnblogs.com/gavincoder/p/9071959.html)
 
 ### 性能优化
 + 防抖（防抖：函数每隔固定时间执行一次。）

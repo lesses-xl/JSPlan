@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+    <canvas width="800" height="700" id="tutorial"></canvas>  
+<body>
+
+
+    <script>
+        function draw() {
+            var canvas = document.getElementById('tutorial');
+            if (!canvas.getContext) return;
+            var ctx = canvas.getContext("2d");
+            ctx.beginPath();
+            ctx.moveTo(10, 200); //起始点
+            var cp1x = 40, cp1y = 100;  //控制点
+            var x = 200, y = 200; // 结束点
+            //绘制二次贝塞尔曲线
+            ctx.quadraticCurveTo(cp1x, cp1y, x, y);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.rect(10, 200, 10, 10);
+            ctx.rect(cp1x, cp1y, 10, 10);
+            ctx.rect(x, y, 10, 10);
+            ctx.fill();
+
+        }
+        draw();
+    </script>
+</body>
+
+</html>
